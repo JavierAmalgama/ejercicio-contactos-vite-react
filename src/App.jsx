@@ -11,6 +11,7 @@ import DashboardPage from './views/DashboardPage'
 import ViewContactPage from './views/ViewContactPage'
 import EditContactPage from './views/EditContactPage'
 import DeleteContactPage from './views/DeleteContactPage'
+import UserDetail from './views/UserDetail'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/contact" element={<ViewContactPage/>} />
           <Route path="/edit-contact" element={<EditContactPage/>} />
           <Route path="/delete-contact" element={<DeleteContactPage/>} />
+          <Route path="/user-detail/:user_id" element={<UserDetail/>} />
           <Route path="*" element={<Error404/>} />
         </Routes>
       </BrowserRouter>
