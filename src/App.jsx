@@ -5,7 +5,7 @@ import LoginPage from "./views/LoginPage/LoginPage";
 import LogoutPage from "./views/LogoutPage";
 import Error404 from "./views/Error404";
 import DashboardPage from "./views/DashboardPage/DashboardPage";
-import ViewContactPage from "./views/ViewContactPage";
+import ViewContactPage from "./views/ViewContactPage/ViewContactPage";
 import EditContactPage from "./views/EditContactPage";
 import DeleteContactPage from "./views/DeleteContactPage";
 import UserDetail from "./views/UserDetail";
