@@ -1,13 +1,16 @@
-import React from "react";
-import Input from "./form/Input";
-import { Input as PasswordInput } from "antd";
+// import Input from "./form/Input";
+import { Input, Input as PasswordInput } from "antd";
 import { EyeInvisibleOutlined, EyeTwoTone } from "@ant-design/icons";
-import ButtonSubmit from "./buttons/ButtonSubmit";
+import ButtonSubmit from "../buttons/ButtonSubmit";
+import "./LoginForm.scss";
 
 const LoginForm = () => {
   return (
-    <form action="/login">
-      <Input value="fullname" name="Full name" type="text" placeholder="Full name" />
+    <form className="login-form">
+      <div className="form-field">
+        <label>Full Name</label>
+        <Input name="Full name" type="text" placeholder="Full name" />
+      </div>
       <div className="form-field">
         <label>Password</label>
         <PasswordInput.Password
