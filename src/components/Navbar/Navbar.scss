@@ -1,0 +1,26 @@
+.navbar {
+  background-color: var(--color-primary);
+  height: 93px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  ul {
+    margin: 0;
+    display: flex;
+    gap: 46px;
+    li {
+      list-style: none;
+      a {
+        text-decoration: none;
+        color: var(--color-white);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        &:hover {
+          color: var(--color-secondary);
+        }
+      }
+    }
+  }
+}
